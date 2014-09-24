@@ -59,8 +59,11 @@
   <ItemGroup>
     <Content Include="about-me.html" />
     <Content Include="contact.html" />
-    <Content Include="github.html" />
     <Content Include="img\background.jpg" />
+    <Content Include="img\Equilibrium.png" />
+    <Content Include="img\Jukebox.png" />
+    <Content Include="img\LoremIpsum.png" />
+    <Content Include="img\small.png" />
     <Content Include="projects.html" />
     <Content Include="Scripts\foundation.min.js" />
     <Content Include="Scripts\foundation\foundation.abide.js" />
