@@ -1,3 +1,9 @@
+/*
+    File Name: foundation.css
+    Author: Peter Smith
+    WebSite Name: Webulation
+    Description: foundation tools to help my webpage run better
+ */
 meta.foundation-version {
   font-family: "/{{ VERSION }}/"; }
 

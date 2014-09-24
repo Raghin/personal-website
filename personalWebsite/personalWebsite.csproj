@@ -59,12 +59,14 @@
   <ItemGroup>
     <Content Include="about-me.html" />
     <Content Include="contact.html" />
+    <Content Include="humans.txt" />
     <Content Include="img\background.jpg" />
     <Content Include="img\Equilibrium.png" />
     <Content Include="img\Jukebox.png" />
     <Content Include="img\LoremIpsum.png" />
     <Content Include="img\small.png" />
     <Content Include="projects.html" />
+    <Content Include="robots.txt" />
     <Content Include="Scripts\foundation.min.js" />
     <Content Include="Scripts\foundation\foundation.abide.js" />
     <Content Include="Scripts\foundation\foundation.accordion.js" />

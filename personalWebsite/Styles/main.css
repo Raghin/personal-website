@@ -1,5 +1,11 @@
-﻿body {
-    /*css for full scren background image*/
+﻿/*
+    File Name: main.css
+    Author: Peter Smith
+    WebSite Name: Webulation
+    Description: main style css for pages
+ */
+body {
+    /*css for full screen background image*/
     background-image:url('../img/background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -9,6 +15,7 @@
 	padding:0;
 	height:100%;
 }
+/*css to prevent overlaping of sections*/
 header {
 	padding:10px;
 }
