@@ -61,9 +61,11 @@
     <Content Include="contact.html" />
     <Content Include="humans.txt" />
     <Content Include="img\background.jpg" />
+    <Content Include="img\contact-me.jpg" />
     <Content Include="img\Equilibrium.png" />
     <Content Include="img\Jukebox.png" />
     <Content Include="img\LoremIpsum.png" />
+    <Content Include="img\myself.jpg" />
     <Content Include="img\small.png" />
     <Content Include="projects.html" />
     <Content Include="robots.txt" />
