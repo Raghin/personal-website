@@ -53,29 +53,34 @@
         </section>
     </nav>
 
-    <!--Websites for images
-        http://webdesign4.georgianc.on.ca/~200222769/webintro/assign2/default.php?pid=13
-        http://webdesign4.georgianc.on.ca/~200222769/webposter/poster
-        http://webdesign4.georgianc.on.ca/~200222769/jukebox/index
-        -->
-
-    <!--copyright statement-->
-    <div class="row">
-        <footer class="small-6 small-centered columns">
-            Property of Peter Smith. Powered by Foundation &copy;
-            <script type="text/javascript">
-                var d = new Date()
-                document.write(d.getFullYear())
-            </script>
-        </footer>
+    <!--images of my work-->
+    <div class="small-12  small-center columns">
+        <div class="row">
+            <ul class="medium-block-grid-2 small-block-grid-1">
+                <li onclick="window.location = 'http://webdesign4.georgianc.on.ca/~200222769/webposter/poster'"><img src="img/Equilibrium.png" /></li>
+                <li onclick="window.location = 'http://webdesign4.georgianc.on.ca/~200222769/webintro/assign2/default.php?pid=13'"><img src="img/LoremIpsum.png" /></li>
+                <li onclick="window.location = 'http://webdesign4.georgianc.on.ca/~200222769/jukebox/index'"><img src="img/Jukebox.png" /></li>
+            </ul>
+        </div>
     </div>
 
-    <!-- JavaScript Lives Here -->
-    <script src="Scripts/vendor/jquery.js"></script>
-    <script src="Scripts/foundation.min.js"></script>
-    <script>
-        $(document).foundation();
-    </script>
-    <script src="Scripts/main.js"></script>
+        <!--copyright statement-->
+        <div id="bottom" class="row">
+            <footer class="small-6 small-centered columns">
+                Property of Peter Smith. Powered by Foundation &copy;
+                <script type="text/javascript">
+                    var d = new Date()
+                    document.write(d.getFullYear())
+                </script>
+            </footer>
+        </div>
+
+        <!-- JavaScript Lives Here -->
+        <script src="Scripts/vendor/jquery.js"></script>
+        <script src="Scripts/foundation.min.js"></script>
+        <script>
+            $(document).foundation();
+        </script>
+        <script src="Scripts/main.js"></script>
 </body>
 </html>
