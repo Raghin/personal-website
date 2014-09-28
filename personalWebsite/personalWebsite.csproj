@@ -70,6 +70,7 @@
     <Content Include="img\small.png" />
     <Content Include="img\web-programming.jpg" />
     <Content Include="projects.html" />
+    <Content Include="img\resume.png" />
     <Content Include="robots.txt" />
     <Content Include="Scripts\foundation.min.js" />
     <Content Include="Scripts\foundation\foundation.abide.js" />

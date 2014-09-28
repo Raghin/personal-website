@@ -69,6 +69,13 @@
         </article>
     </div>
 
+    <!--call to action and follow me on facebook-->
+    <div class="small-8 small-centered columns">
+        <a href="projects.html" class="button">Check out my work</a>
+        <iframe src="//www.facebook.com/plugins/follow?href=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D100001943918692&amp;layout=standard&amp;show_faces=true&amp;colorscheme=light&amp;width=450&amp;height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:50px;" allowTransparency="true"></iframe>
+    </div>
+    
+
     <!--slider for featured works-->
     <div class="small-6 small-centered columns">
         <ul data-orbit>
@@ -93,7 +100,6 @@
         </ul>
     </div>
     
-
     <!--copyright statement-->
     <div class="row">
         <footer class="small-6 small-centered columns">
@@ -112,5 +118,14 @@
         $(document).foundation();
     </script>
     <script src="Scripts/main.js"></script>
+    <div id="fb-root"></div>
+    <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
 </body>
 </html>
