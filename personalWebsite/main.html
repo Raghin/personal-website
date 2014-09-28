@@ -16,100 +16,110 @@
 </head>
 <body>
 
-    <div class="row">
-        <!--logo for website-->
-        <div id="logo" class="small-2 columns">
-            <img src="img/small.png" />
+    <div class="fullscreen background" style="background-image:url('../img/background.jpg');" data-img-width="1600" data-img-height="1064">
+        <div class="content-a">
+            <div class="content-b">
+                <div class="row">
+                    <!--logo for website-->
+                    <div id="logo" class="small-2 columns">
+                        <img src="img/small.png" />
+                    </div>
+
+                    <!--Welcome statement-->
+                    <header>
+                        <h1 class="small-12 small-centered columns">Welcome to my multiverse!</h1>
+                    </header>
+                </div>
+
+
+                <!--navigation bar-->
+                <nav class="top-bar" data-topbar role="navigation">
+                    <ul class="title-area">
+                        <li class="name">
+                            <h1><a href="main.html">Home</a></h1>
+                        </li>
+                        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+                        <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+                    </ul>
+
+                    <section class="top-bar-section">
+
+                        <ul class="left">
+                            <li><a href="about-me.html">About Me</a></li>
+                        </ul>
+                        <ul class="left">
+                            <li><a href="projects.html">Projects</a></li>
+                        </ul>
+                        <ul class="left">
+                            <li><a href="services.html">Services</a></li>
+                        </ul>
+                        <ul class="left">
+                            <li><a href="https://github.com/Raghin">GitHub</a></li>
+                        </ul>
+                        <ul class="left">
+                            <li><a href="contact.html">Contact Info</a></li>
+                        </ul>
+
+                    </section>
+                </nav>
+
+                <div id="content" class="row small-8 small-centered columns">
+                    <h2>I am a programmer, a gamer, and a critic. I will make sure the program shines.</h2>
+                    <article>
+                        I program because when I see something in a program I don't like, I think of ways that
+                        it could be made better. I enjoy the work so it helps motivate me on jobs and I want to make things
+                        with code I know people will like and use rather than just something that works
+                    </article>
+                </div>
+
+                <!--call to action and follow me on facebook-->
+                <div class="small-8 small-centered columns">
+                    <a href="projects.html" class="button">Check out my work</a>
+                    <iframe src="//www.facebook.com/plugins/follow?href=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D100001943918692&amp;layout=standard&amp;show_faces=true&amp;colorscheme=light&amp;width=450&amp;height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:50px;" allowtransparency="true"></iframe>
+                </div>
+
+
+                <!--slider for featured works-->
+                <div class="small-6 small-centered columns">
+                    <ul data-orbit>
+                        <li onclick="window.location = 'http://webdesign4.georgianc.on.ca/~200222769/webposter/poster'">
+                            <img src="img/Equilibrium.png" alt="slide 1" />
+                            <div class="orbit-caption">
+                                Web poster for the movie Equilibrium with trailer preview.
+                            </div>
+                        </li>
+                        <li onclick="window.location = 'http://webdesign4.georgianc.on.ca/~200222769/webintro/assign2/default.php?pid=13'">
+                            <img src="img/LoremIpsum.png" alt="slide 2" />
+                            <div class="orbit-caption">
+                                Lorem Ipsum website talking about what it is and its origin.
+                            </div>
+                        </li>
+                        <li onclick="window.location = 'http://webdesign4.georgianc.on.ca/~200222769/jukebox/index'">
+                            <img src="img/Jukebox.png" alt="slide 3" />
+                            <div class="orbit-caption">
+                                A website where one could buy an old classic jukebox, website plays witchdoctor song.
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!--copyright statement-->
+                <div class="row">
+                    <footer class="small-6 small-centered columns">
+                        Property of Peter Smith. Powered by Foundation &copy;
+                        <script type="text/javascript">
+                            var d = new Date()
+                            document.write(d.getFullYear())
+                        </script>
+                    </footer>
+                </div>
+
+            </div>
         </div>
-
-        <!--Welcome statement-->
-        <header>
-            <h1 class="small-12 small-centered columns">Welcome to my multiverse!</h1>
-        </header>
-    </div>
-    
-
-    <!--navigation bar-->
-    <nav class="top-bar" data-topbar role="navigation">
-        <ul class="title-area">
-            <li class="name">
-                <h1><a href="main.html">Home</a></h1>
-            </li>
-            <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-            <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-        </ul>
-
-        <section class="top-bar-section">
-
-            <ul class="left">
-                <li><a href="about-me.html">About Me</a></li>
-            </ul>
-            <ul class="left">
-                <li><a href="projects.html">Projects</a></li>
-            </ul>
-            <ul class="left">
-                <li><a href="services.html">Services</a></li>
-            </ul>
-            <ul class="left">
-                <li><a href="https://github.com/Raghin">GitHub</a></li>
-            </ul>
-            <ul class="left">
-                <li><a href="contact.html">Contact Info</a></li>
-            </ul>
-            
-        </section>
-    </nav>
-
-    <div id="content" class="row small-8 small-centered columns">
-        <h2>I am a programmer, a gamer, and a critic. I will make sure the program shines.</h2>
-        <article>
-            I program because when I see something in a program I don't like, I think of ways that 
-            it could be made better. I enjoy the work so it helps motivate me on jobs and I want to make things 
-            with code I know people will like and use rather than just something that works
-        </article>
     </div>
 
-    <!--call to action and follow me on facebook-->
-    <div class="small-8 small-centered columns">
-        <a href="projects.html" class="button">Check out my work</a>
-        <iframe src="//www.facebook.com/plugins/follow?href=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D100001943918692&amp;layout=standard&amp;show_faces=true&amp;colorscheme=light&amp;width=450&amp;height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:50px;" allowTransparency="true"></iframe>
-    </div>
-    
 
-    <!--slider for featured works-->
-    <div class="small-6 small-centered columns">
-        <ul data-orbit>
-            <li onclick="window.location = 'http://webdesign4.georgianc.on.ca/~200222769/webposter/poster'">
-                <img src="img/Equilibrium.png" alt="slide 1" />
-                <div class="orbit-caption">
-                    Web poster for the movie Equilibrium with trailer preview.
-                </div>
-            </li>
-            <li onclick="window.location = 'http://webdesign4.georgianc.on.ca/~200222769/webintro/assign2/default.php?pid=13'">
-                <img src="img/LoremIpsum.png" alt="slide 2" />
-                <div class="orbit-caption">
-                    Lorem Ipsum website talking about what it is and its origin.
-                </div>
-            </li>
-            <li onclick="window.location = 'http://webdesign4.georgianc.on.ca/~200222769/jukebox/index'">
-                <img src="img/Jukebox.png" alt="slide 3" />
-                <div class="orbit-caption">
-                    A website where one could buy an old classic jukebox, website plays witchdoctor song.
-                </div>
-            </li>
-        </ul>
-    </div>
-    
-    <!--copyright statement-->
-    <div class="row">
-        <footer class="small-6 small-centered columns">
-            Property of Peter Smith. Powered by Foundation &copy;
-            <script type="text/javascript">
-                var d = new Date()
-                document.write(d.getFullYear())
-            </script>
-        </footer>
-    </div>
+
 
     <!-- JavaScript Lives Here -->
     <script src="Scripts/vendor/jquery.js"></script>
@@ -118,6 +128,7 @@
         $(document).foundation();
     </script>
     <script src="Scripts/main.js"></script>
+    <script src="Scripts/jquery.js"></script>
     <div id="fb-root"></div>
     <script>
         (function (d, s, id) {

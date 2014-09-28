@@ -16,81 +16,91 @@
 </head>
 <body>
 
-    <!--page name-->
-    <header>
-        <h1 class="small-6 small-centered columns">About Me</h1>
-    </header>
+    <div class="fullscreen background" style="background-image:url('../img/background.jpg');" data-img-width="1600" data-img-height="1064">
+        <div class="content-a">
+            <div class="content-b">
+                <!--page name-->
+                <header>
+                    <h1 class="small-6 small-centered columns">About Me</h1>
+                </header>
 
-    <!--navigation bar-->
-    <nav class="top-bar" data-topbar role="navigation">
-        
-        <ul class="title-area">
-            <li class="name">
-                <h1><a href="main.html">Home</a></h1>
-            </li>
-            <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-            <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-        </ul>
+                <!--navigation bar-->
+                <nav class="top-bar" data-topbar role="navigation">
 
-        <section class="top-bar-section">
+                    <ul class="title-area">
+                        <li class="name">
+                            <h1><a href="main.html">Home</a></h1>
+                        </li>
+                        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+                        <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+                    </ul>
 
-            <ul class="left">
-                <li class="active"><a href="about-me.html">About Me</a></li>
-            </ul>
-            <ul class="left">
-                <li><a href="projects.html">Projects</a></li>
-            </ul>
-            <ul class="left">
-                <li><a href="services.html">Services</a></li>
-            </ul>
-            <ul class="left">
-                <li><a href="https://github.com/Raghin">GitHub</a></li>
-            </ul>
-            <ul class="left">
-                <li><a href="contact.html">Contact Info</a></li>
-            </ul>
+                    <section class="top-bar-section">
 
-        </section>
-    </nav>
+                        <ul class="left">
+                            <li class="active"><a href="about-me.html">About Me</a></li>
+                        </ul>
+                        <ul class="left">
+                            <li><a href="projects.html">Projects</a></li>
+                        </ul>
+                        <ul class="left">
+                            <li><a href="services.html">Services</a></li>
+                        </ul>
+                        <ul class="left">
+                            <li><a href="https://github.com/Raghin">GitHub</a></li>
+                        </ul>
+                        <ul class="left">
+                            <li><a href="contact.html">Contact Info</a></li>
+                        </ul>
 
-    <!--picture of myself-->
-    <div id="myself" class="small-3 columns">
-        <img src="img/myself.jpg" />
-    </div>
+                    </section>
+                </nav>
 
-    <!--Bio section-->
-    <div class="small-7 columns">
-        <h2>Who am I?</h2>
-        <article>I am a gamer who likes to program. I play games, examine parts that could have been
-        done better, and think of ways that I could improve the code. I am also a critic, who can
-        explain to people why what they did was wrong in great detail, and tell them how they should
-        alter it to fix it. I love games with stories or in depth characters, something to latch onto
-        and develop, my love of stories includes a wide variety of books where I can further develop
-        my creativity.</article>
-    </div>
+                <!--picture of myself-->
+                <div id="myself" class="small-3 columns">
+                    <img src="img/myself.jpg" />
+                </div>
 
-    <div class="small-6 columns">
-        <img src="img/resume.png" />
-    </div>
+                <!--Bio section-->
+                <div class="small-7 columns">
+                    <h2>Who am I?</h2>
+                    <article>
+                        I am a gamer who likes to program. I play games, examine parts that could have been
+                        done better, and think of ways that I could improve the code. I am also a critic, who can
+                        explain to people why what they did was wrong in great detail, and tell them how they should
+                        alter it to fix it. I love games with stories or in depth characters, something to latch onto
+                        and develop, my love of stories includes a wide variety of books where I can further develop
+                        my creativity.
+                    </article>
+                </div>
 
-        <!--copyright statement-->
-        <div class="row">
-            <footer class="small-12 small-push-3 columns">
-                Property of Peter Smith. Powered by Foundation &copy;
-                <script type="text/javascript">
-                    var d = new Date()
-                    document.write(d.getFullYear())
-                </script>
-            </footer>
+                <div class="small-6 columns">
+                    <img src="img/resume.png" />
+                </div>
+
+                <!--copyright statement-->
+                <div class="row">
+                    <footer class="small-12 small-push-3 columns">
+                        Property of Peter Smith. Powered by Foundation &copy;
+                        <script type="text/javascript">
+                            var d = new Date()
+                            document.write(d.getFullYear())
+                        </script>
+                    </footer>
+                </div>
+            </div>
         </div>
+    </div>
 
 
-        <!-- JavaScript Lives Here -->
-        <script src="Scripts/vendor/jquery.js"></script>
-        <script src="Scripts/foundation.min.js"></script>
-        <script>
-            $(document).foundation();
-        </script>
-        <script src="Scripts/main.js"></script>
+
+
+    <!-- JavaScript Lives Here -->
+    <script src="Scripts/vendor/jquery.js"></script>
+    <script src="Scripts/foundation.min.js"></script>
+    <script>
+        $(document).foundation();
+    </script>
+    <script src="Scripts/main.js"></script>
 </body>
 </html>

@@ -90,6 +90,7 @@
     <Content Include="Scripts\foundation\foundation.tab.js" />
     <Content Include="Scripts\foundation\foundation.tooltip.js" />
     <Content Include="Scripts\foundation\foundation.topbar.js" />
+    <Content Include="Scripts\jquery.js" />
     <Content Include="Scripts\main.js" />
     <Content Include="Scripts\vendor\fastclick.js" />
     <Content Include="Scripts\vendor\jquery.cookie.js" />

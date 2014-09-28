@@ -16,85 +16,93 @@
 </head>
 <body>
 
-    <div class="row">
-        <!--header image-->
-        <!--logo for website-->
-        <div class="small-2 columns">
-            <img src="img/web-programming.jpg" />
+    <div class="fullscreen background" style="background-image:url('../img/background.jpg');" data-img-width="1600" data-img-height="1064">
+        <div class="content-a">
+            <div class="content-b">
+                <div class="row">
+                    <!--header image-->
+                    <!--logo for website-->
+                    <div class="small-2 columns">
+                        <img src="img/web-programming.jpg" />
+                    </div>
+
+                    <!--page name-->
+                    <header>
+                        <h1 class="small-6 small-centered columns">Services</h1>
+                    </header>
+                </div>
+
+
+                <!--navigation bar-->
+                <nav class="top-bar" data-topbar role="navigation">
+
+                    <ul class="title-area">
+                        <li class="name">
+                            <h1><a href="main.html">Home</a></h1>
+                        </li>
+                        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+                        <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+                    </ul>
+
+                    <section class="top-bar-section">
+
+                        <ul class="left">
+                            <li><a href="about-me.html">About Me</a></li>
+                        </ul>
+                        <ul class="left">
+                            <li><a href="projects.html">Projects</a></li>
+                        </ul>
+                        <ul class="left">
+                            <li class="active"><a href="services.html">Services</a></li>
+                        </ul>
+                        <ul class="left">
+                            <li><a href="https://github.com/Raghin">GitHub</a></li>
+                        </ul>
+                        <ul class="left">
+                            <li><a href="contact.html">Contact Info</a></li>
+                        </ul>
+
+                    </section>
+                </nav>
+
+                <!--related image-->
+                <div class="small-3 columns">
+                    <img src="img/programming-languages.png" />
+                </div>
+
+                <div id="content" class="row small-8 small-push-0 columns">
+                    <article>
+                        I mainly work with basic programming languages and web programming languages at present.
+                        My web programming experience consists of html, css, php, and sql while computer programming
+                        knowledge is currently in Java and C#. I also possess music and video editing skills using
+                        programs such as audacity and microsoft video editing tools. A breakdown of my skillset is as follows.
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>PHP</li>
+                            <li>SQL</li>
+                            <li>JAVA</li>
+                            <li>Audio editing</li>
+                            <li>Video editing</li>
+                        </ul>
+                    </article>
+                </div>
+
+                <!--copyright statement-->
+                <div class="row">
+                    <footer class="small-6 small-centered columns">
+                        Property of Peter Smith. Powered by Foundation &copy;
+                        <script type="text/javascript">
+                            var d = new Date()
+                            document.write(d.getFullYear())
+                        </script>
+                    </footer>
+                </div>
+            </div>
         </div>
-
-        <!--page name-->
-        <header>
-            <h1 class="small-6 small-centered columns">Services</h1>
-        </header>
-    </div>
-    
-
-    <!--navigation bar-->
-    <nav class="top-bar" data-topbar role="navigation">
-        
-        <ul class="title-area">
-            <li class="name">
-                <h1><a href="main.html">Home</a></h1>
-            </li>
-            <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-            <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-        </ul>
-
-        <section class="top-bar-section">
-
-            <ul class="left">
-                <li><a href="about-me.html">About Me</a></li>
-            </ul>
-            <ul class="left">
-                <li><a href="projects.html">Projects</a></li>
-            </ul>
-            <ul class="left">
-                <li class="active"><a href="services.html">Services</a></li>
-            </ul>
-            <ul class="left">
-                <li><a href="https://github.com/Raghin">GitHub</a></li>
-            </ul>
-            <ul class="left">
-                <li><a href="contact.html">Contact Info</a></li>
-            </ul>
-
-        </section>
-    </nav>
-
-    <!--related image-->
-    <div class="small-3 columns">
-        <img src="img/programming-languages.png" />
     </div>
 
-    <div id="content" class="row small-8 small-push-0 columns">
-        <article>
-            I mainly work with basic programming languages and web programming languages at present.
-            My web programming experience consists of html, css, php, and sql while computer programming 
-            knowledge is currently in Java and C#. I also possess music and video editing skills using 
-            programs such as audacity and microsoft video editing tools. A breakdown of my skillset is as follows.
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>PHP</li>
-                <li>SQL</li>
-                <li>JAVA</li>
-                <li>Audio editing</li>
-                <li>Video editing</li>
-            </ul>
-        </article>
-    </div>
 
-    <!--copyright statement-->
-    <div class="row">
-        <footer class="small-6 small-centered columns">
-            Property of Peter Smith. Powered by Foundation &copy;
-            <script type="text/javascript">
-                var d = new Date()
-                document.write(d.getFullYear())
-            </script>
-        </footer>
-    </div>
 
     <!-- JavaScript Lives Here -->
     <script src="Scripts/vendor/jquery.js"></script>
