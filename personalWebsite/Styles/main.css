@@ -16,6 +16,7 @@
 html, body {
     /* give this to all tags from html to .fullscreen */
     background-image:url('../img/background.jpg');
+    background-color: #769E95;
 	background-repeat: no-repeat;
 	background-size: cover;
 	min-height: 100%;
